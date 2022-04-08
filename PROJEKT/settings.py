@@ -126,7 +126,7 @@ STATICFILES_DIRS = [
 ]
 
 # IDE fogja collectelni a collectstatic
-STATIC_ROOT = BASE_DIR / 'staticfiles'  
+STATIC_ROOT = BASE_DIR / 'static'  
 #régebbi django-hoz: 
 #STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
