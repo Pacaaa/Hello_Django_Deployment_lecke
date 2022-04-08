@@ -121,9 +121,7 @@ db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 
 # INNEN szedegeti össze azokat a statikus fájlokat, amelyek nem tartoznak egyetlen apphoz sem:
-STATICFILES_DIRS = [
-    BASE_DIR / 'static'
-]
+
 
 # IDE fogja collectelni a collectstatic
 STATIC_ROOT = BASE_DIR / 'static'  
